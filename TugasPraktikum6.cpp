@@ -1,3 +1,9 @@
+/* Nama : Saskia Putri Paramitha
+   NIM  : 24060123140144
+   Lab  : GKV E2
+   File : TugasPraktikum6
+*/
+
 #include <math.h>
 #include <GL/glut.h>
 #include <stdio.h>
