@@ -1,7 +1,7 @@
-/*	Nama  : Saskia Putri Paramitha
-	  NIM   : 24060123140144
-	  Lab   : GKV E2
-    Tugas : TugasPraktikum1
+/*  Nama : Saskia Putri Paramitha
+    NIM  : 24060123140144
+    Lab  : GKV E2
+    File : TugasPraktikum1
 */
 
 #include <GL/glut.h>
