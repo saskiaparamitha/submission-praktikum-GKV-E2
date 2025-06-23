@@ -5,7 +5,24 @@
 */
 
 #include <GL/glut.h>
+#include <math.h>
 
+#define PI 3.14159265
+
+/* 1. Buatlah sebuah lingkaran. */
+void drawCircle(float cx, float cy, float r, int num_segments) {
+    glBegin(GL_POLYGON);
+    for (int i = 0; i < num_segments; i++) {
+        float theta = 2.0f * PI * float(i) / float(num_segments);
+        float x = r * cosf(theta);
+        float y = r * sinf(theta);
+        glVertex2f(x + cx, y + cy);
+    }
+    glEnd();
+}
+
+/* Buatlah sebuah mobil 2D yang memanfaatkan object2 primitif dan transformasi (translasi 
+dan rotasi). Penggunaan stack disarankan! */
 float carX = -0.5f; 
 float speed = 0.01f; 
 
